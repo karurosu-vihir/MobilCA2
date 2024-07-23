@@ -1,46 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/textViewTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Título"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:paddingBottom="8dp"
+        android:text="Título" />
 
     <TextView
         android:id="@+id/textViewAutor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Autor"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:paddingBottom="4dp"
+        android:text="Autor" />
 
     <TextView
         android:id="@+id/textViewPrecio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Precio"
         android:textSize="16sp"
-        android:textColor="@android:color/holo_green_dark" />
+        android:paddingBottom="4dp"
+        android:text="Precio" />
 
     <TextView
         android:id="@+id/textViewDescripcion"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Descripción"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:paddingBottom="8dp"
+        android:text="Descripción" />
 
     <TextView
         android:id="@+id/textViewUrl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="URL"
-        android:textSize="14sp"
-        android:textColor="@android:color/holo_blue_dark" />
+        android:textSize="16sp"
+        android:text="URL" />
+
 </LinearLayout>
